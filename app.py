@@ -14,7 +14,7 @@ apipass="Not Set"
 baseURL=os.getenv('API_SERVER')
 apiuser=os.getenv('API_USER')
 apipass=os.getenv('API_PASS')
-#test
+#testing
 
 
 @app.route('/',methods=['GET'])
