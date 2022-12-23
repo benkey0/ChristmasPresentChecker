@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: christmaspresentcheckerfrontend:latest
+          tags: benkey0/christmaspresentcheckerfrontend:latest
