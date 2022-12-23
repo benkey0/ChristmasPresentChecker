@@ -324,8 +324,12 @@ def newpresentpost():
     # Set the "Content-Type" and "Content-Disposition" headers
     # to tell the server that the request contains an image
     api_url = (baseURL+"uploadpresent/" + barcode)
-    response = requests.post(url=api_url, json={'user_photo': string})
-    print(response.text)
+    print(api_url)
+    try:
+        response = requests.post(url=api_url, json={'user_photo': string})
+        print(response.text)
+    except Exception as e:
+        print("error when pushing image - " , e)
 
     if jsonobject["status"] == "success":
         return render_template("goodmessage.html",message="Item Added Successfully")
