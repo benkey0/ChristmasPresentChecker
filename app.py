@@ -326,7 +326,7 @@ def newpresentpost():
     api_url = (baseURL+"uploadpresent/" + barcode)
     print(api_url)
     try:
-        response = requests.post(url=api_url, json={'user_photo': string})
+        response = requests.post(url=api_url, json={'user_photo': string},auth=(apiuser, apipass))
         print(response.text)
     except Exception as e:
         print("error when pushing image - " , e)
