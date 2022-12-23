@@ -75,7 +75,7 @@ services:
 ```
 #### Command to start Postgres (if you dont have an instance already):
 ```
-sudo docker run --name some-xmas-db  -p 5432:5432 -e POSTGRES_PASSWORD=dbpassword -d postgres```
+sudo docker run --name some-xmas-db  -p 5432:5432 -e POSTGRES_PASSWORD=dbpassword -d postgres
 ```
 
 #### Command to Setup Database (First time run) 
