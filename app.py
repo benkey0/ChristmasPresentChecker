@@ -131,7 +131,7 @@ def viewpresentimages():  # put application's code here
 
         user={}
         user["barcode"]=i["barcode"]
-        image=(baseURL+"/images/"+i["imagelink"])
+        image=(baseURL+"images/"+i["imagelink"])
         user["image"] = image
         user["itemname"] = i["itemname"]
         user["itemvalue"] = i["itemvalue"]
