@@ -14,9 +14,11 @@ This project aims to be a fun way of managing Christmas presents. Who needs labe
 * Bring technology where there is a clear gap in the market!
 
 ## Example Video :
-
-
+Coming Soon!
 ## Example Screenshots :
+* Main Screen - https://user-images.githubusercontent.com/23360735/209368223-84f43218-2997-4ec9-bd17-ab73918c0b5b.png
+* Add Screen - https://user-images.githubusercontent.com/23360735/209368222-cb9b8222-b2e7-418b-a2fd-f8a28ac7285f.png
+* Scan Screen - https://user-images.githubusercontent.com/23360735/209368219-5f867199-2b9a-447e-9790-6215bf0bf4b7.png
 
 ## Core Setup :
 
